@@ -1,5 +1,9 @@
 # Movies-ETL
 
+Starting this analysis, we used two datasets:
+1. The wikipedia.movies.json file in this repository
+2. The 'ratings' and 'movies_metadata' files found in Kaggle: https://www.kaggle.com/rounakbanik/the-movies-dataset/download (these files were too large to upload to the repo)
+
 #### Checking competing data in both data sets.
 Wiki | Movielens | Resolution
 ----------------------|------------------------|----------------------------
