@@ -8,9 +8,11 @@ Starting this analysis, we used two datasets:
 Wiki | Movielens | Resolution
 ----------------------|------------------------|----------------------------
 title_wiki | title_kaggle | **Drop Wikipedia**
-running_time | runtime
+running_time | runtime | **Keep Kaggle; fill in zeros with Wikipedia data.**
 budget_wiki  | budget_kaggle
 box_office | revenue
 release_date_wiki | release_date_kaggle
 Language | original_language
 Production company(s) | production_companies     
+- We dropped the wikipedia data because the kaggle data was more accurate
+- Since the Wikipedia data had a few outliers in the runtime, we use the Kaggle data.
